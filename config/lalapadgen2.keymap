@@ -57,6 +57,12 @@
             bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
+
+        layer3 {
+            bindings = <&mo 3>;
+            key-positions = <38 33>;
+            layers = <3>;
+        };
     };
 
     keymap {
