@@ -57,12 +57,6 @@
             bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
-
-        layer3 {
-            bindings = <&mo 3>;
-            key-positions = <38 33>;
-            layers = <3>;
-        };
     };
 
     keymap {
@@ -73,7 +67,7 @@
             bindings = <
 &kp Q              &kp W      &kp E         &kp R             &kp T                                     &kp Y      &kp U        &kp I          &kp O       &kp P
 &kp A              &kp S      &kp D         &kp F             &kp G                                     &kp H      &kp J        &kp K          &kp L       &mt2 EQUAL MINUS
-&mt2 LEFT_SHIFT Z  &kp X      &kp C         &kp V             &kp B                                     &kp N      &kp M        &kp COMMA      &kp PERIOD  &none
+&mt2 LEFT_SHIFT Z  &kp X      &kp C         &kp V             &kp B                                     &kp N      &kp M        &kp COMMA      &kp PERIOD  &mo 3
 &kp LCTRL          &kp LWIN   &kp LEFT_ALT  &lt 1 LANGUAGE_1  &kp SPACE  &kp LEFT_SHIFT  &kp BACKSPACE  &kp ENTER  &lt 2 LANG4  &kp SEMICOLON  &kp COLON   &kp RIGHT_CONTROL
                    &none      &kp RIGHT     &kp DOWN          &kp LEFT   &kp UP          &kp UP         &kp LEFT   &kp DOWN     &kp RIGHT      &none
 &mkp LCLK          &mkp RCLK  &mkp MCLK                                                                                         &mkp LCLK      &mkp RCLK   &mkp MCLK
